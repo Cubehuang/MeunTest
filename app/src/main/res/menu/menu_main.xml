@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--总而言之：具体表项使用item，设置组行为使用group，设置为菜单使用menu-->
+    <item android:title="@string/font_size"
+        android:icon="@drawable/font">
+        <!--定义一组担心菜单选项-使用group-->
+        <menu>
+            <group android:checkableBehavior="single">
+                <!--定义具体的表项-->
+                <item
+                    android:id="@+id/font_10"
+                    android:title="@string/font_10"/>
+                <item
+                    android:id="@+id/font_12"
+                    android:title="@string/font_12"/>
+                <item
+                    android:id="@+id/font_14"
+                    android:title="@string/font_14"/>
+                <item
+                    android:id="@+id/font_16"
+                    android:title="@string/font_16"/>
+                <item
+                    android:id="@+id/font_18"
+                    android:title="@string/font_18"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/plain_item"
+        android:icon="@drawable/font">
+
+    </item>
+    <item android:title="@string/font_color"
+        android:icon="@drawable/font">
+        <menu>
+            <group>
+                <item android:id="@+id/red_font"
+                    android:title="@string/red_title"/>
+                <item android:id="@+id/blue_font"
+                    android:title="@string/blue_title"/>
+                <item android:id="@+id/green_font"
+                    android:title="@string/green_title"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
