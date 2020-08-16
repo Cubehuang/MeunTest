@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         turnToActivity.setHeaderTitle("选择activity");
         MenuItem item = turnToActivity.add(3,0x11c,0,"查看hhh");
         /*Intent intent = new Intent(MainActivity.this,newActivity.class);
-        item.setIntent(intent);*/
+        item.setIntent(intent);   */
 
 
 
